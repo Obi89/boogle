@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friseur GmbH</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+<link href="index.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="navi">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#exampleModal" data-toggle="modal" data-target="#exampleModal"><i class="material-icons">star_border</i>Friseur GmbH<i class="material-icons">star_border</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#carouselExampleIndicators">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Our Services </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link right" href="#appointment-anker">Make an appointment </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link right" href="#accordion">FAQ </a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+
+<div class="foto">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://images.kurier.at/46-71177778.jpg/620x340/275.572.019" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://www.puro-munich.com/bilder/image/slider/styling.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://www.friseur-oldesloe.de/wp-content/uploads/2013/01/Friseur-Bad-Oldesloe.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="services">
+  <h2 id="services">Our Services</h2>
+  <div class="text-center">
+    <div class="card-body">
+        <p class="card-text"><i class="material-icons">star_border</i> HAIRCUTS <i class="material-icons">star_border</i></p>
+        <img src="http://www.feeling-well.at/public/img/gallery/friseur9.jpg" alt="Cut" class="rounded">
+      </div>
+<div class="card-body">
+    <p class="card-text"><i class="material-icons">star_border</i> STYLING <i class="material-icons">star_border</i></p>
+    <img src="http://lionesseflatiron.com/wp-content/uploads/2016/11/lionesse-a-guide-to-hair-styling-products-hairspray.jpg" alt="Styling" class="rounded">
+  </div>
+<div class="card-body">
+    <p class="card-text"><i class="material-icons">star_border</i> COLORING <i class="material-icons">star_border</i></p>
+    <img src="https://img.prinz.de/xv9thCsbpMJ3qFxuK1BnPCjTSP8=/fit-in/980x0/filters:brightness(5):contrast(5)/https://media.prinz.de/articles/2017-01/friseur_haare_farben_skynesher_istock_1_fotor_ToTyEs9.jpg" alt="Color" class="rounded">
+  </div>
+</div>
+</div>
+
+<div class="container" >
+  <h2 id=appointment-anker>Make an appointment</h2>
+<div class="appointment">
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">1</span>
+    <input type="text" class="form-control" placeholder="First and last name" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">2</span>
+    <input type="text" class="form-control" placeholder="Phone number" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">3</span>
+    <input type="text" class="form-control" placeholder="Date" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Other info (haircut wishes etc.)</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" value="">
+    I agree the AGB
+  </label>
+</div>
+<button type="button" class="btn btn-secondary">Send</button>
+</div>
+
+<div class="appointment2">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Working hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>08:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td>Tuseday</td>
+        <td>10:00 - 18:00</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>08:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>08:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>12:00 - 20:00</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>08:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>10:00 - 12:00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="faq">
+ <h2>FAQ</h2>
+  <div id="accordion" role="tablist">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Do you have gift certificates?
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Gift certificates are available for purchase in the salon or over the phone. If you are purchase a gift certificate over the phone, we can either mail it to your lucky recipient or simply keep it in our files. Gift certificates are not reedemable for cash or refundable.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Can I bring my pet anlong?
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Pets welcome!
+        Animals are therefore always welcome guests in our salon.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What awards did you receive so far?
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        2011: Austrian Federal Councilor<br>
+        2012: Austrian State Secretary of the Hairdressers<br>
+        2016: Great Place to Work Award
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="about">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Our salon has been in existence for 60 years. Our highly qualified styling team offers you a variety of hairdressing services, which will convince you. In every life situation it is important to feel comfortable with its hair style all around. To ensure this, our employees are regularly trained. With us all customers are advised individually and type-appropriate.
+     <br>
+     <img src="https://www.friseursalon-miglietta.de/data1/images/indexsl04.jpg"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <div class="contact">
+    <ul>
+      <li>CONTACT</li>
+      <li>Friseur GmbH</li>
+      <li>Fax number: 324324234</li>
+      <li>Friseurgasse 5, 1020 Wien</li>
+      <li>Phone: 0668/345435346</li>
+      <li>E-Mail: Friseur@friseur.at</li>
+    </ul>
+  </div>
+  <div class="logo">
+    <img src="https://s3-eu-west-1.amazonaws.com/sc-files.pjms.fr/p/pjms/355/000/122/480/249a416adfb144ac9846b107f44a81b4.jpg" alt="logo" />
+  </div>
+  <div class"navibottom">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+      <a class="nav-link active" id="v-pills-home-tab" href="#navbarSupportedContent" role="tab" aria-controls="v-pills-home" aria-expanded="true">Navigation</a>
+      <a class="nav-link" id="v-pills-profile-tab" href="#services" role="tab" aria-controls="v-pills-profile" aria-expanded="true">Our services</a>
+      <a class="nav-link" id="v-pills-messages-tab" href="#appointment-anker" role="tab" aria-controls="v-pills-messages" aria-expanded="true">Make an appointment</a>
+      <a class="nav-link" id="v-pills-settings-tab" href="#accordion" role="tab" aria-controls="v-pills-settings" aria-expanded="true">FAQ</a>
+      <a class="nav-link" id="v-pills-about-tab" href="#exampleModal" role="tab" aria-controls="v-pills-about" aria-expanded="true" data-toggle="modal" data-target="#exampleModal">About us</a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<html>

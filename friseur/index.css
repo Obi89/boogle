@@ -1,0 +1,138 @@
+body{
+  background-color: rgb(230 230 230);
+  margin: 0px;
+  padding: 0px;
+}
+nav{
+  background-color: rgb(180 180 180);
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 16px;
+}
+.foto{
+  max-height: 450px;
+  max-width: 800px;
+  min-width: 300px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.d-block{
+  height: 450px;
+  width: 800px;
+}
+.services img{
+  width: 350px;
+  padding-left: 10px;
+}
+
+.text-center{
+  margin-bottom: 200px;
+  display:flow-root;
+  margin-left: 15%;
+  
+  }
+.card-body{
+float: left;
+box-shadow: 10px 10px 5px #888888;
+}
+h2{
+  text-align:center;
+  color: rgb(100 100 100);
+  font-weight: bold;
+}
+
+.container{
+  height: 500px;
+  width: 100%;
+}
+.appointment{
+  height: 420px;
+  width: 400px;
+  float: left;
+  margin-top: 40px;
+  padding: 5px;
+  display:flow-root;
+  box-shadow: 10px 10px 5px #888888;
+}
+.appointment2{
+  height: 420px;
+  width: 400px;
+  float: right;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  padding: 5px;
+  display: flow-root;
+  box-shadow: 10px 10px 5px #888888;
+}
+.faq{
+margin-top: 200px;
+margin-bottom: 70px;
+float:inherit;
+display: inline-block;
+width: 100%;
+box-shadow: 10px 10px 5px #888888;
+}
+.modal-body img{
+  height: 200px;
+  width: 350px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.footer{
+  height: 185px;
+  width: 100%;
+  background-color: rgb(180 180 180);
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  position: absolute;
+}
+ul{
+  list-style-type: none;
+  float: left;
+  padding-left: 10px;
+}
+.logo{
+  width: 100%;
+  margin-top:10px;
+  position:absolute;
+  text-align: center;
+  z-index: 1;
+}
+.footer img{
+  border: 2px solid rgb(200 200 200);
+  height: 150px;
+  width: 160px;
+}
+#v-pills-tab{
+  height: 180px;
+  width: 150px;
+  background-color: rgb(180 180 180);
+  font-size: 11px;
+  float: right;
+  margin-right: 10px;
+  z-index: 2;
+}
+#v-pills-home-tab{
+  background-color: rgb(200 200 200);
+  z-index: 2;
+}
+.nav-link{
+  color: rgb(255 255 255);
+  font-weight: bold;
+  z-index: 2;
+}
+.nav-link:hover{
+  color: rgb(0 0 0);
+  z-index: 2;
+}
+.faq a{
+    color: rgb(100 100 100);
+}
